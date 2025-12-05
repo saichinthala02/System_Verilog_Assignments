@@ -1,0 +1,19 @@
+Q. What is ment by task/function invocation?
+
+A. Task or function invocation refers to the process of calling a task or function from another procedural block (such as an initial, always, or another task/function) in order to execute the statements in that task or function.
+
+	Example: Addition of two Numbers using funcion.
+	
+		module top;
+			int a,b,sum;
+		//--> Function
+			function int add(input integer a,b);
+				return a+b;
+			endfunction
+		//--> Procedural Block
+			initial begin
+				sum=add(10,20);  //--> Function invocation.
+				$display("The sum of 10 and 20 is %0d",sum);
+			end
+		endmodule
+

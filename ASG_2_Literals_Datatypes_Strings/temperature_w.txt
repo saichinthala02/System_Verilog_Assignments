@@ -1,0 +1,15 @@
+The temperatures in Ascending Order:-
+Temprature-1:- 12.550000
+Temprature-2:- 17.220000
+Temprature-3:- 19.220000
+Temprature-4:- 19.450000
+Temprature-5:- 20.900000
+Temprature-6:- 23.120000
+Temprature-7:- 24.120000
+Temprature-8:- 25.550000
+Temprature-9:- 25.610000
+Temprature-10:- 31.200000
+Temprature-11:- 31.300000
+Temprature-12:- 32.110000
+Temprature-13:- 33.100000
+Temprature-14:- 45.440000
