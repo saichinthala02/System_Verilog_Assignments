@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/saich/OneDrive/Desktop/Assignments/System_Verilog/ASG_3_Arrays_Queue_Mailbox/Advanced
+vfifo
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1761849703
+!i10b 1
+!s100 8oneHLRT^PK4;]nGoB:kI0
+Im7HL@0n1M>XAS;L2=7eNU2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 q7_fifo_sv_unit
+S1
+R0
+w1761849701
+8q7_fifo.sv
+Fq7_fifo.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1761849702.000000
+!s107 q7_fifo.sv|
+!s90 -reportprogress|300|q7_fifo.sv|
+!i113 1
+Z4 tCvgOpt 0
+vstack
+R1
+Z5 !s110 1761849966
+!i10b 1
+!s100 3Z7OLnkdeCmWNN7fmcf_>0
+ILb8XWM_QAmeS:70kC0I2V1
+R2
+Z6 !s105 q8_stack_sv_unit
+S1
+R0
+Z7 w1761849933
+Z8 8q8_stack.sv
+Z9 Fq8_stack.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1761849966.000000
+Z11 !s107 q8_stack.sv|
+Z12 !s90 -reportprogress|300|q8_stack.sv|
+!i113 1
+R4
+vtop
+R1
+R5
+!i10b 1
+!s100 ]l6GkzKa?i=lC5PPJhl@`0
+IF_OE[UPR5G72Jd@mA1Q8H1
+R2
+R6
+S1
+R0
+R7
+R8
+R9
+L0 13
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4

@@ -1,0 +1,11 @@
+vlib work
+#vlog q1.sv
+#vlog q2.sv
+#vlog q3.sv
+#vlog q4.sv
+#vlog q5.sv
+#vlog q6.sv
+#vlog q7_fifo.sv
+vlog q8_stack.sv
+vsim top
+run -all

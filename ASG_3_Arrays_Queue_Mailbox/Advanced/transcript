@@ -1,0 +1,778 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:43 on Oct 30,2025
+# vlog -reportprogress 300 q1.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:01:44 on Oct 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:01:44 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# dA= '{59, 87, 99, 67, 96, 51, 90, 51, 67, 72}
+# q= '{59, 87, 99, 67, 96, 51, 90, 51, 67, 72}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:53 on Oct 30,2025
+# vlog -reportprogress 300 q1.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:02:53 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:02:57 on Oct 30,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:02:57 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Dynamic-Array(dA)= '{59, 87, 99, 67, 96, 51, 90, 51, 67, 72}
+# Queue(q)= '{59, 87, 99, 67, 96, 51, 90, 51, 67, 72}
+# A time value could not be extracted from the current line
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:07:09 on Oct 30,2025
+# vlog -reportprogress 300 q2.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:07:09 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:07:10 on Oct 30,2025, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:07:10 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Error: (vsim-3043) q2.sv(6): Unresolved reference to 'intAD'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q2.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 4
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:12 on Oct 30,2025
+# vlog -reportprogress 300 q2.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:08:12 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:07:10 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# intDA[0]=x
+# intDA[1]=x
+# intDA[2]=x
+# intDA[3]=x
+# intDA[4]=x
+# intDA[5]=x
+# intDA[6]=x
+# intDA[7]=x
+# intDA[8]=x
+# intDA[9]=x
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:11:00 on Oct 30,2025
+# vlog -reportprogress 300 q2.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:11:00 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:11:01 on Oct 30,2025, Elapsed time: 0:03:51
+# Errors: 1, Warnings: 0
+# vsim top 
+# Start time: 23:11:02 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:17:50 on Oct 30,2025
+# vlog -reportprogress 300 q3.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:17:50 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:17:52 on Oct 30,2025, Elapsed time: 0:06:50
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:17:52 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Byte Dynamic Array:- '{56, 38, 102, 54, 70, 70, 114, 46, 103, 58}
+# After Allocating extra memory and copy first array
+# Byte Dynamic Array:- '{56, 38, 102, 54, 70, 70, 114, 46, 103, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:18:19 on Oct 30,2025
+# vlog -reportprogress 300 q3.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:18:19 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:18:21 on Oct 30,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:18:21 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Byte Dynamic Array:- '{-96, 104, 62, 98, -108, 32, 36, -20, 119, -100}
+# After Allocating extra memory and copy first array
+# Byte Dynamic Array:- '{-96, 104, 62, 98, -108, 32, 36, -20, 119, -100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:12 on Oct 30,2025
+# vlog -reportprogress 300 q3.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:19:12 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:19:14 on Oct 30,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:19:14 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Byte Dynamic Array:- '{55, -91, -27, 53, 69, -59, -15, -83, -26, -71}
+# After Allocating extra memory and copy first array
+# Byte Dynamic Array:- '{55, -91, -27, 53, 69, -59, -15, -83, -26, -71, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:20:27 on Oct 30,2025
+# vlog -reportprogress 300 q3.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:20:27 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:20:28 on Oct 30,2025, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:20:28 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Byte Dynamic Array:- '{55, -91, -27, 53, 69, -59, -15, -83, -26, -71}
+# After Allocating extra memory and copy first array
+# Byte Dynamic Array:- '{55, -91, -27, 53, 69, -59, -15, -83, -26, -71, -23, 51, -18, -43, -76, 83, 45, -4, 90, -124}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:26:30 on Oct 30,2025
+# vlog -reportprogress 300 q4.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:26:30 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:26:32 on Oct 30,2025, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:26:32 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# '{18}
+# '{18, 16}
+# '{18, 16, 16}
+# '{18, 16, 16, 16}
+# '{18, 16, 16, 16, 16}
+# '{18, 16, 16, 16, 16, 16}
+# '{18, 16, 16, 16, 16, 16, 12}
+# '{18, 16, 16, 16, 16, 16, 12, 24}
+# '{18, 16, 16, 16, 16, 16, 12, 24, 17}
+# '{18, 16, 16, 16, 16, 16, 12, 24, 17, 20}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:27:00 on Oct 30,2025
+# vlog -reportprogress 300 q4.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:27:00 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:27:02 on Oct 30,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:27:02 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# '{22}
+# '{22, 14}
+# '{22, 14, 12}
+# '{22, 14, 12, 18}
+# '{22, 14, 12, 18, 20}
+# '{22, 14, 12, 18, 20, 24}
+# '{22, 14, 12, 18, 20, 24, 18}
+# '{22, 14, 12, 18, 20, 24, 18, 14}
+# '{22, 14, 12, 18, 20, 24, 18, 14, 21}
+# '{22, 14, 12, 18, 20, 24, 18, 14, 21, 18}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:32:10 on Oct 30,2025
+# vlog -reportprogress 300 q5.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:32:10 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:32:12 on Oct 30,2025, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:32:12 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Dynamic Array: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Queue: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:33:10 on Oct 30,2025
+# vlog -reportprogress 300 q5.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:33:10 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:33:13 on Oct 30,2025, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:33:13 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Dynamic Array: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Queue: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Reversed Queue or Array: '{20, 33, 32, 20, 32, 32, 24, 32, 32, 10}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:33:31 on Oct 30,2025
+# vlog -reportprogress 300 q5.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:33:31 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:33:32 on Oct 30,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:33:33 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Dynamic Array: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Queue: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Reversed Queue (or) Array: '{20, 33, 32, 20, 32, 32, 24, 32, 32, 10}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:35:36 on Oct 30,2025
+# vlog -reportprogress 300 q5.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:35:36 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:35:38 on Oct 30,2025, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:35:38 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Dynamic Array: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Queue: '{10, 32, 32, 24, 32, 32, 20, 32, 33, 20}
+# Reversed Dynamic Array: '{20, 33, 32, 20, 32, 32, 24, 32, 32, 10}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:42:04 on Oct 30,2025
+# vlog -reportprogress 300 q6.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:42:04 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:42:07 on Oct 30,2025, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:42:07 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Both Queue and Array are not same.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:43:07 on Oct 30,2025
+# vlog -reportprogress 300 q6.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:43:07 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:43:09 on Oct 30,2025, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:43:09 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Queue(intQ):- '{17, 18, 15, 13, 16, 19, 14, 20, 15, 15}
+# Array(intArr):- '{20, 13, 19, 20, 13, 13, 12, 20, 12, 13}
+# Both Queue and Array are not same.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:45:38 on Oct 30,2025
+# vlog -reportprogress 300 q6.sv 
+# -- Compiling module top
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) q6.sv(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# 
+# Top level modules:
+# 	top
+# End time: 23:45:38 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# End time: 23:45:40 on Oct 30,2025, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 20
+# vsim top 
+# Start time: 23:45:41 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Queue(intQ):- '{100, 100, 100, 100, 100, 100, 100, 100, 100, 100}
+# Array(intArr):- '{100, 100, 100, 100, 100, 100, 100, 100, 100, 100}
+# Both Queue and Array are same.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:45:57 on Oct 30,2025
+# vlog -reportprogress 300 q6.sv 
+# -- Compiling module top
+# ** Error (suppressible): q6.sv(6): (vlog-13174) Illegal assignment pattern. The number of elements (10) doesn't match with the type's width (32).
+# ** Error (suppressible): q6.sv(7): (vlog-13174) Illegal assignment pattern. The number of elements (10) doesn't match with the type's width (32).
+# End time: 23:45:57 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 7
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q6.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:32 on Oct 30,2025
+# vlog -reportprogress 300 q6.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:47:32 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:47:34 on Oct 30,2025, Elapsed time: 0:01:53
+# Errors: 3, Warnings: 0
+# vsim top 
+# Start time: 23:47:34 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Queue(intQ):- '{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# Array(intArr):- '{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# Both Queue and Array are same.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:51:02 on Oct 30,2025
+# vlog -reportprogress 300 q6.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:51:02 on Oct 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:51:03 on Oct 30,2025, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:51:04 on Oct 30,2025
+# Loading sv_std.std
+# Loading work.top
+# Queue(intQ):- '{17, 18, 15, 13, 16, 19, 14, 20, 15, 15}
+# Array(intArr):- '{20, 13, 19, 20, 13, 13, 12, 20, 12, 13}
+# Both Queue and Array are not same.
+# After Copyinq queue to Array(intArr):- '{17, 18, 15, 13, 16, 19, 14, 20, 15, 15}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:00:49 on Oct 31,2025
+# vlog -reportprogress 300 q7.sv 
+# ** Error: (vlog-7) Failed to open design unit file "q7.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:00:49 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 8
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q7.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:02 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# ** Error: q7_fifo.sv(5): Invalid number of actuals in call to push_back.
+# ** Warning: q7_fifo.sv(9): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+# -- Compiling module top
+# ** Error: (vlog-13069) q7_fifo.sv(17): near "repeat": syntax error, unexpected repeat.
+# ** Error: q7_fifo.sv(19): (vlog-13161) unexpected '$display', expecting elaboration system task $fatal/$error/$warning/$info.
+# ** Error: (vlog-13069) q7_fifo.sv(20): near "end": syntax error, unexpected end.
+# ** Error: q7_fifo.sv(23): (vlog-13161) unexpected '$display', expecting elaboration system task $fatal/$error/$warning/$info.
+# ** Error: (vlog-13069) q7_fifo.sv(24): near "end": syntax error, unexpected end.
+# End time: 00:01:02 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 8
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q7_fifo.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:40 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# ** Error: q7_fifo.sv(5): Invalid number of actuals in call to push_back.
+# ** Warning: q7_fifo.sv(9): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+# -- Compiling module top
+# End time: 00:01:40 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 8
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q7_fifo.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:03:45 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# ** Warning: q7_fifo.sv(9): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:03:45 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:03:47 on Oct 31,2025, Elapsed time: 0:12:43
+# Errors: 17, Warnings: 3
+# vsim top 
+# Start time: 00:03:47 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fifo
+# ** Error: (vsim-8776) q7_fifo.sv(24): Use of a task 'get' in an expression.  The task is declared at q7_fifo.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q7_fifo.sv
+# ** Error: (vsim-8220) q7_fifo.sv(24): This or another usage of 'dut.get.$$' inconsistent with '(null)' object.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q7_fifo.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 9
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:01 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# ** Warning: q7_fifo.sv(9): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:05:01 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 00:03:47 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fifo
+# ** Error: (vsim-8776) q7_fifo.sv(24): Use of a task 'ge' in an expression.  The task is declared at q7_fifo.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q7_fifo.sv
+# ** Error: (vsim-8220) q7_fifo.sv(24): This or another usage of 'dut.ge.$$' inconsistent with '(null)' object.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q7_fifo.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 9
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:07:04 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:07:04 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 00:03:47 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fifo
+# '{99}
+# '{99, 10}
+# '{99, 10, 62}
+# '{99, 10, 62, 27}
+# '{99, 10, 62, 27, 13}
+# '{99, 10, 62, 27, 13, 88}
+# '{99, 10, 62, 27, 13, 88, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87, 90}
+# 	--> 99
+# 	--> 10
+# 	--> 62
+# 	--> 27
+# 	--> 13
+# 	--> 88
+# 	--> 87
+# 	--> 70
+# 	--> 87
+# 	--> 90
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:08:43 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:08:43 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:08:45 on Oct 31,2025, Elapsed time: 0:04:58
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 00:08:46 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fifo
+# ------> FIFO Writes <------
+# '{99}
+# '{99, 10}
+# '{99, 10, 62}
+# '{99, 10, 62, 27}
+# '{99, 10, 62, 27, 13}
+# '{99, 10, 62, 27, 13, 88}
+# '{99, 10, 62, 27, 13, 88, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87, 90}
+# ------> FIFO Reads <------
+# 	--> 99
+# 	--> 10
+# 	--> 62
+# 	--> 27
+# 	--> 13
+# 	--> 88
+# 	--> 87
+# 	--> 70
+# 	--> 87
+# 	--> 90
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:11:11 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:11:12 on Oct 31,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 00:11:14 on Oct 31,2025, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 00:11:14 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fifo
+# ------> FIFO Writes <------
+# '{99}
+# '{99, 10}
+# '{99, 10, 62}
+# '{99, 10, 62, 27}
+# '{99, 10, 62, 27, 13}
+# '{99, 10, 62, 27, 13, 88}
+# '{99, 10, 62, 27, 13, 88, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87, 90}
+# ----------------------------------------
+# ------> FIFO Reads <------
+# 	--> 99
+# 	--> 10
+# 	--> 62
+# 	--> 27
+# 	--> 13
+# 	--> 88
+# 	--> 87
+# 	--> 70
+# 	--> 87
+# 	--> 90
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:11:42 on Oct 31,2025
+# vlog -reportprogress 300 q7_fifo.sv 
+# -- Compiling module fifo
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:11:43 on Oct 31,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 00:11:45 on Oct 31,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 00:11:45 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fifo
+# ------------------------------------------
+# ------> FIFO Writes <------
+# '{99}
+# '{99, 10}
+# '{99, 10, 62}
+# '{99, 10, 62, 27}
+# '{99, 10, 62, 27, 13}
+# '{99, 10, 62, 27, 13, 88}
+# '{99, 10, 62, 27, 13, 88, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87}
+# '{99, 10, 62, 27, 13, 88, 87, 70, 87, 90}
+# ------------------------------------------
+# ------> FIFO Reads <------
+# 	--> 99
+# 	--> 10
+# 	--> 62
+# 	--> 27
+# 	--> 13
+# 	--> 88
+# 	--> 87
+# 	--> 70
+# 	--> 87
+# 	--> 90
+# ------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:15:37 on Oct 31,2025
+# vlog -reportprogress 300 q7_stack.sv 
+# ** Error: (vlog-7) Failed to open design unit file "q7_stack.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:15:37 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 9
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q7_stack.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:16:06 on Oct 31,2025
+# vlog -reportprogress 300 q8_stack.sv 
+# -- Compiling module stack
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:16:06 on Oct 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:16:08 on Oct 31,2025, Elapsed time: 0:04:23
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 00:16:08 on Oct 31,2025
+# Loading sv_std.std
+# Loading work.top
+# Loading work.stack
+# ------------------------------------------
+# ------> Stack Writes <------
+# '{157}
+# '{157, 259}
+# '{157, 259, 395}
+# '{157, 259, 395, 243}
+# '{157, 259, 395, 243, 451}
+# '{157, 259, 395, 243, 451, 59}
+# '{157, 259, 395, 243, 451, 59, 307}
+# '{157, 259, 395, 243, 451, 59, 307, 427}
+# '{157, 259, 395, 243, 451, 59, 307, 427, 76}
+# '{157, 259, 395, 243, 451, 59, 307, 427, 76, 431}
+# ------------------------------------------
+# ------> Stack Reads <------
+# 	--> 431
+# 	--> 76
+# 	--> 427
+# 	--> 307
+# 	--> 59
+# 	--> 451
+# 	--> 243
+# 	--> 395
+# 	--> 259
+# 	--> 157
+# ------------------------------------------
+# End time: 00:18:15 on Oct 31,2025, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 0
