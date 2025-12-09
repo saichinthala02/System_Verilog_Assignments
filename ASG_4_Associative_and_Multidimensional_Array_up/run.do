@@ -1,0 +1,16 @@
+vlib work
+#vlog q5_packed_array.sv
+#vlog q9_q10_random1.sv
+#vlog q11_unpacked.sv
+#vlog q12_q13.sv
+#vlog q16_multi_dim_arr.sv
+#vlog q17.sv
+vlog q18_stack.sv
+#vlog q19_fifo.sv
+#vlog q20_array_declaration.sv
+#vlog q21_associative.sv
+#vlog q22_dynamic_arr.sv
+#vlog q23_ass_arr.sv
+#vlog q24_ass_arr.sv
+vsim top
+run -all
