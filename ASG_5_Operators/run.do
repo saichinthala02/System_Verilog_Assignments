@@ -1,0 +1,17 @@
+vlib work
+#vlog q1_membership_optr.sv
+#vlog q2_streaming_optr.sv
+#vlog q3_multi_div.sv
+#vlog q4_shift_optr.sv
+#vlog q5_shift_optr_2.sv
+#vlog q6_conditional_optr.sv
+#vlog q7_equality_optr.sv
+#vlog q8_wildcard_optr.sv
+#vlog q11_arr_concatination.sv
+#vlog q12_string_concatination.sv
+#vlog q13_illegal_concatination.sv
+vlog q14_valid.sv
+#vlog q15_not_optr.sv
+#vlog q17_operators.sv
+vsim top
+run -all

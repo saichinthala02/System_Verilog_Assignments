@@ -1,0 +1,711 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:09:57 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# ** Error: (vlog-13069) q15_not_optr.sv(3): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: q15_not_optr.sv(7): (vlog-2730) Undefined variable: 'b'.
+# ** Error: q15_not_optr.sv(9): (vlog-2730) Undefined variable: 'c'.
+# End time: 19:09:57 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 13
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q15_not_optr.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:13 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:11:13 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:11:13 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Warning: (vsim-PLI-3003) q15_not_optr.sv(10): [TOFD] - System task or function '$sisplay' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q15_not_optr.sv
+# ** Warning: (vsim-PLI-3003) q15_not_optr.sv(12): [TOFD] - System task or function '$sisplay' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q15_not_optr.sv
+# ** Warning: (vsim-PLI-3003) q15_not_optr.sv(14): [TOFD] - System task or function '$sisplay' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q15_not_optr.sv
+# ** Error (suppressible): (vsim-12023) q15_not_optr.sv(10): Cannot execute undefined system task/function '$sisplay'
+# ** Error (suppressible): (vsim-12023) q15_not_optr.sv(12): Cannot execute undefined system task/function '$sisplay'
+# ** Error (suppressible): (vsim-12023) q15_not_optr.sv(14): Cannot execute undefined system task/function '$sisplay'
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:11:38 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:11:38 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:11:40 on Nov 04,2025, Elapsed time: 0:00:27
+# Errors: 3, Warnings: 3
+# vsim top 
+# Start time: 19:11:40 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# a:- 10011 || b:- 10111
+# bitwise ~ --> c:- 01100
+# logical ! --> d:- 0
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:13:10 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:13:10 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:13:11 on Nov 04,2025, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:13:11 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# a:- 10011 || b:- 10111
+# bitwise ~ --> c:- 01100
+# logical ! --> d:- 0
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:13:47 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:13:47 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:13:49 on Nov 04,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:13:49 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# a:- 10011 || b:- 10111
+# bitwise ~ --> c:- 01100
+# logical ! --> d:- 0
+# e=0
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:20 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:14:20 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:14:21 on Nov 04,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:14:21 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# a:- 10010 || b:- 10111
+# bitwise ~ --> c:- 01101
+# logical ! --> d:- 0
+# e=0
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:39 on Nov 04,2025
+# vlog -reportprogress 300 q15_not_optr.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:14:39 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:14:40 on Nov 04,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:14:40 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# a:- 00000 || b:- 10111
+# bitwise ~ --> c:- 11111
+# logical ! --> d:- 1
+# e=1
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:13 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:21:13 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:21:14 on Nov 04,2025, Elapsed time: 0:06:34
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:21:14 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:32:24 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# ** Error: (vlog-13069) q17_operators.sv(61): near "a": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 19:32:24 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 14
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q17_operators.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:32:37 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:32:37 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:32:39 on Nov 04,2025, Elapsed time: 0:11:25
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 19:32:39 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# A:- 6 || B:- 12
+# A:- 14 || B:- 12
+# A:- 8 || B:- 12
+# A:- 0 || B:- 12
+# A:- 0 || B:- 4
+# A:- 1010 || B:- 1100
+# A:- 1000 || B:- 1100
+# A:- 1010 || B:- 1100
+# A:- 1110 || B:- 1100
+# A:- 1010 || B:- 1100
+# A:- 0110 || B:- 1100
+# A:- 1010
+# A:- 1000
+# A:- 1010
+# A:- 0010
+# A:- 0110
+# A:- 1000
+# A:- 0110
+# A:- 0001
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:34:47 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:34:47 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:34:49 on Nov 04,2025, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:34:49 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 6 || B:- 12
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 14 || B:- 12
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 8 || B:- 12
+# -----------------------------------------------
+# A:- 8 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# A:- 4 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1000 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 0110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010
+# A:- 1000
+# -----------------------------------------------
+# A:- 1010
+# A:- 0010
+# -----------------------------------------------
+# A:- 0110
+# A:- 1000
+# -----------------------------------------------
+# A:- 0110
+# A:- 0001
+# -----------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:37:50 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:37:50 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:37:51 on Nov 04,2025, Elapsed time: 0:03:02
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:37:51 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# A:- 6 || B:- 7
+# A:- 13 || B:- 7
+# -----------------------------------------------
+# A:- 12 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# A:- 3 || B:- 3
+# A:- 9 || B:- 3
+# -----------------------------------------------
+# A:- 14 || B:- 7
+# A:- 2 || B:- 7
+# -----------------------------------------------
+# A:- 12 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1000 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 0110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010
+# A:- 1000
+# -----------------------------------------------
+# A:- 1010
+# A:- 0010
+# -----------------------------------------------
+# A:- 0110
+# A:- 1000
+# -----------------------------------------------
+# A:- 0110
+# A:- 0001
+# -----------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:24 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:39:24 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:39:25 on Nov 04,2025, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:39:25 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# A:- 6 || B:- 7
+# A:- 13 || B:- 7
+# -----------------------------------------------
+# A:- 12 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# A:- 3 || B:- 3
+# A:- 9 || B:- 3
+# -----------------------------------------------
+# A:- 14 || B:- 7
+# A:- 2 || B:- 7
+# -----------------------------------------------
+# A:- 12 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1000 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 0110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010
+# A:- 1000
+# -----------------------------------------------
+# A:- 1010
+# A:- 0010
+# -----------------------------------------------
+# A:- 1001
+# A:- 0100
+# -----------------------------------------------
+# A:- 1001
+# A:- 0010
+# -----------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:58 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:39:59 on Nov 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:40:00 on Nov 04,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:40:00 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# A:- 6 || B:- 7
+# A:- 13 || B:- 7
+# -----------------------------------------------
+# A:- 12 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# A:- 3 || B:- 3
+# A:- 9 || B:- 3
+# -----------------------------------------------
+# A:- 14 || B:- 7
+# A:- 2 || B:- 7
+# -----------------------------------------------
+# A:- 12 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1000 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 1110 || B:- 1100
+# -----------------------------------------------
+# A:- 1010 || B:- 1100
+# A:- 0110 || B:- 1100
+# -----------------------------------------------
+# A:- 0111
+# A:- 1100
+# -----------------------------------------------
+# A:- 0111
+# A:- 0001
+# -----------------------------------------------
+# A:- 1001
+# A:- 0100
+# -----------------------------------------------
+# A:- 1001
+# A:- 0010
+# -----------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:45:02 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# ** Error (suppressible): q17_operators.sv(42): (vlog-2122) Invalid format specification '%='.
+# End time: 19:45:02 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 14
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q17_operators.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:46:10 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:46:10 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:46:11 on Nov 04,2025, Elapsed time: 0:06:11
+# Errors: 3, Warnings: 0
+# vsim top 
+# Start time: 19:46:11 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# --------> a=b <-------- 
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# --------> a+=b <-------- 
+# A:- 6 || B:- 7
+# A:- 13 || B:- 7
+# -----------------------------------------------
+# --------> a-=b <-------- 
+# A:- 12 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# --------> a*=b <-------- 
+# A:- 3 || B:- 3
+# A:- 9 || B:- 3
+# -----------------------------------------------
+# --------> a/=b <-------- 
+# A:- 14 || B:- 7
+# A:- 2 || B:- 7
+# -----------------------------------------------
+# --------> a%=b <-------- 
+# A:- 12 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# --------> a&=b <-------- 
+# A:- 1010 || B:- 1100
+# A:- 1000 || B:- 1100
+# -----------------------------------------------
+# --------> a|=b <-------- 
+# A:- 1010 || B:- 1100
+# A:- 1110 || B:- 1100
+# -----------------------------------------------
+# --------> a^=b <-------- 
+# A:- 1010 || B:- 1100
+# A:- 0110 || B:- 1100
+# -----------------------------------------------
+# --------> a<<=2 <-------- 
+# A:- 0111
+# A:- 1100
+# -----------------------------------------------
+# --------> a>>=2 <-------- 
+# A:- 0111
+# A:- 0001
+# -----------------------------------------------
+# --------> a<<<=2 <-------- 
+# A:- 1001
+# A:- 0100
+# -----------------------------------------------
+# --------> a>>>=2 <-------- 
+# A:- 1001
+# A:- 0010
+# -----------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:50:05 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:50:05 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:50:06 on Nov 04,2025, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:50:06 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# --------> a=b <-------- 
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# --------> a+=b <-------- 
+# A:- 6 || B:- 7
+# A:- 13 || B:- 7
+# -----------------------------------------------
+# --------> a-=b <-------- 
+# A:- 12 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# --------> a*=b <-------- 
+# A:- 3 || B:- 3
+# A:- 9 || B:- 3
+# -----------------------------------------------
+# --------> a/=b <-------- 
+# A:- 14 || B:- 7
+# A:- 2 || B:- 7
+# -----------------------------------------------
+# --------> a%=b <-------- 
+# A:- 12 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# --------> a&=b <-------- 
+# A:- 00000000000000000000000000001010 || B:- 00000000000000000000000000001100
+# A:- 00000000000000000000000000001000 || B:- 00000000000000000000000000001100
+# -----------------------------------------------
+# --------> a|=b <-------- 
+# A:- 00000000000000000000000000001010 || B:- 00000000000000000000000000001100
+# A:- 00000000000000000000000000001110 || B:- 00000000000000000000000000001100
+# -----------------------------------------------
+# --------> a^=b <-------- 
+# A:- 00000000000000000000000000001010 || B:- 00000000000000000000000000001100
+# A:- 00000000000000000000000000000110 || B:- 00000000000000000000000000001100
+# -----------------------------------------------
+# --------> a<<=2 <-------- 
+# A:- 00000000000000000000000000000111
+# A:- 00000000000000000000000000011100
+# -----------------------------------------------
+# --------> a>>=2 <-------- 
+# A:- 00000000000000000000000000000111
+# A:- 00000000000000000000000000000001
+# -----------------------------------------------
+# --------> a<<<=2 <-------- 
+# A:- 11111111111111111111111111111001
+# A:- 11111111111111111111111111100100
+# -----------------------------------------------
+# --------> a>>>=2 <-------- 
+# A:- 11111111111111111111111111111001
+# A:- 11111111111111111111111111111110
+# -----------------------------------------------
+# 	--> ADD A:- 30 | B:- 60 || C:- 90
+# 	--> SUB A:- 60 | B:- 20 || C:- 40
+# 	--> MUL A:- 30 | B:- 60 || C:- 1800
+# 	--> DIV A:- 30 | B:- 5 || C:- 6
+# 	--> MOD A:- 30 | B:- 5 || C:- 0
+# 	--> POW A:- 2 | B:- 12 || C:- 4096
+# -----------------------------------------------
+# 	--> AND A:- 00000000000000000000000000001011 B:- 00000000000000000000000000000011 C:- 00000000000000000000000000000011
+# 	--> OR A:- 00000000000000000000000000001011 B:- 00000000000000000000000000000011 C:- 00000000000000000000000000001011
+# 	--> NAND A:- 00000000000000000000000000001011 B:- 00000000000000000000000000000011 C:- 11111111111111111111111111111100
+# 	--> NOR A:- 00000000000000000000000000001011 B:- 00000000000000000000000000000011 C:- 11111111111111111111111111110100
+# 	--> XOR A:- 00000000000000000000000000001011 B:- 00000000000000000000000000000011 C:- 00000000000000000000000000001000
+# 	--> XNOR A:- 00000000000000000000000000001011 B:- 00000000000000000000000000000011 C:- 11111111111111111111111111110111
+# 	--> NOT A:- 00000000000000000000000000001011 C:- 11111111111111111111111111110100
+# 	--> NOT B:- 00000000000000000000000000000011 C:- 11111111111111111111111111111100
+# -----------------------------------------------
+# 	--> LOGICAL_AND A:- 00000000000000000000000000001000 B:- 00000000000000000000000000000000 C:- 00000000000000000000000000000000
+# 	--> LOGICAL_!AND A:- 00000000000000000000000000001000 B:- 00000000000000000000000000000000 C:- 00000000000000000000000000000001
+# 	--> LOGICAL_OR A:- 00000000000000000000000000001000 B:- 00000000000000000000000000000000 C:- 00000000000000000000000000000001
+# 	--> LOGICAL_!OR A:- 00000000000000000000000000001000 B:- 00000000000000000000000000000000 C:- 00000000000000000000000000000000
+# -----------------------------------------------
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:08 on Nov 04,2025
+# vlog -reportprogress 300 q17_operators.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:53:08 on Nov 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:53:10 on Nov 04,2025, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 19:53:10 on Nov 04,2025
+# Loading sv_std.std
+# Loading work.top
+# -----------------------------------------------
+# --------> a=b <-------- 
+# A:- 10 || B:- 12
+# A:- 12 || B:- 12
+# -----------------------------------------------
+# --------> a+=b <-------- 
+# A:- 6 || B:- 7
+# A:- 13 || B:- 7
+# -----------------------------------------------
+# --------> a-=b <-------- 
+# A:- 12 || B:- 12
+# A:- 0 || B:- 12
+# -----------------------------------------------
+# --------> a*=b <-------- 
+# A:- 3 || B:- 3
+# A:- 9 || B:- 3
+# -----------------------------------------------
+# --------> a/=b <-------- 
+# A:- 14 || B:- 7
+# A:- 2 || B:- 7
+# -----------------------------------------------
+# --------> a%=b <-------- 
+# A:- 12 || B:- 4
+# A:- 0 || B:- 4
+# -----------------------------------------------
+# --------> a&=b <-------- 
+# A:- 00000000000000000000000000001010 || B:- 00000000000000000000000000001100
+# A:- 00000000000000000000000000001000 || B:- 00000000000000000000000000001100
+# -----------------------------------------------
+# --------> a|=b <-------- 
+# A:- 00000000000000000000000000001010 || B:- 00000000000000000000000000001100
+# A:- 00000000000000000000000000001110 || B:- 00000000000000000000000000001100
+# -----------------------------------------------
+# --------> a^=b <-------- 
+# A:- 00000000000000000000000000001010 || B:- 00000000000000000000000000001100
+# A:- 00000000000000000000000000000110 || B:- 00000000000000000000000000001100
+# -----------------------------------------------
+# --------> a<<=2 <-------- 
+# A:- 00000000000000000000000000000111
+# A:- 00000000000000000000000000011100
+# -----------------------------------------------
+# --------> a>>=2 <-------- 
+# A:- 00000000000000000000000000000111
+# A:- 00000000000000000000000000000001
+# -----------------------------------------------
+# --------> a<<<=2 <-------- 
+# A:- 11111111111111111111111111111001
+# A:- 11111111111111111111111111100100
+# -----------------------------------------------
+# --------> a>>>=2 <-------- 
+# A:- 11111111111111111111111111111001
+# A:- 11111111111111111111111111111110
+# -----------------------------------------------
+# 	--> ADD A:- 30 | B:- 60 || C:- 90
+# 	--> SUB A:- 60 | B:- 20 || C:- 40
+# 	--> MUL A:- 30 | B:- 60 || C:- 1800
+# 	--> DIV A:- 30 | B:- 5 || C:- 6
+# 	--> MOD A:- 30 | B:- 5 || C:- 0
+# 	--> POW A:- 2 | B:- 12 || C:- 4096
+# -----------------------------------------------
+# 	--> AND A:- 1011 B:- 11 C:- 11
+# 	--> OR A:- 1011 B:- 11 C:- 1011
+# 	--> NAND A:- 1011 B:- 11 C:- 11111111111111111111111111111100
+# 	--> NOR A:- 1011 B:- 11 C:- 11111111111111111111111111110100
+# 	--> XOR A:- 1011 B:- 11 C:- 1000
+# 	--> XNOR A:- 1011 B:- 11 C:- 11111111111111111111111111110111
+# 	--> NOT A:- 1011 C:- 11111111111111111111111111110100
+# 	--> NOT B:- 11 C:- 11111111111111111111111111111100
+# -----------------------------------------------
+# 	--> LOGICAL_AND A:- 1000 B:- 0 C:- 0
+# 	--> LOGICAL_!AND A:- 1000 B:- 0 C:- 1
+# 	--> LOGICAL_OR A:- 1000 B:- 0 C:- 1
+# 	--> LOGICAL_!OR A:- 1000 B:- 0 C:- 0
+# -----------------------------------------------
+# End time: 19:54:22 on Nov 04,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
