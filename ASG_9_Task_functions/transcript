@@ -1,0 +1,157 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:58:03 on Nov 16,2025
+# vlog -reportprogress 300 q5_user_arguments.sv 
+# ** Error: (vlog-7) Failed to open design unit file "q5_user_arguments.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 17:58:03 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 5
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q5_user_arguments.sv"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:58:50 on Nov 16,2025
+# vlog -reportprogress 300 q5_user_arguments.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:58:50 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top "+testname=TRANSACTION" "+tx_count=50" 
+# Start time: 17:58:50 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Warning: (vsim-PLI-3691) q5_user_arguments.sv(5): Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q5_user_arguments.sv
+# ** Warning: (vsim-PLI-3691) q5_user_arguments.sv(6): Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: q5_user_arguments.sv
+# Testname:- TRANSACTION
+# tx_count:- 50
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:22 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:05:22 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:05:24 on Nov 16,2025, Elapsed time: 0:06:34
+# Errors: 0, Warnings: 2
+# vsim top #+testname=TRANSACTION "+tx_count=50" 
+# Start time: 18:05:24 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Error: (vsim-3170) Could not find '#+testname=TRANSACTION'.
+#         Searched libraries:
+#             C:/Users/saich/OneDrive/Desktop/Assignments/System_Verilog/ASG_9_Task_functions/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 6
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:48 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:05:48 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 18:05:24 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1 of file "image.hex". (Current address [1024], address range [0:1023])    : q4_img.sv(5)
+#    Time: 0 ps  Iteration: 0  Instance: /top
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:45 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# ** Error: q4_img.sv(3): (vlog-13208) Internal data size overflow in module "top". 
+# ** Error: q4_img.sv(8): Verilog Compiler exiting
+# End time: 18:06:45 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 4
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q4_img.sv"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:07 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:07:07 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:07:08 on Nov 16,2025, Elapsed time: 0:01:44
+# Errors: 6, Warnings: 1
+# vsim top 
+# Start time: 18:07:08 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1 of file "image.hex". (Current address [1025], address range [0:1024])    : q4_img.sv(5)
+#    Time: 0 ps  Iteration: 0  Instance: /top
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:49 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:07:49 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:07:51 on Nov 16,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 1
+# vsim top 
+# Start time: 18:07:51 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1 of file "image.hex". (Current address [1024], address range [0:1023])    : q4_img.sv(5)
+#    Time: 0 ps  Iteration: 0  Instance: /top
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:08:19 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# ** Error: q4_img.sv(3): (vlog-13208) Internal data size overflow in module "top". 
+# ** Error: q4_img.sv(8): Verilog Compiler exiting
+# End time: 18:08:19 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run.do line 4
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog q4_img.sv"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:08:28 on Nov 16,2025
+# vlog -reportprogress 300 q4_img.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:08:28 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:08:29 on Nov 16,2025, Elapsed time: 0:00:38
+# Errors: 5, Warnings: 1
+# vsim top 
+# Start time: 18:08:29 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.top
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1 of file "image.hex". (Current address [1024], address range [0:1023])    : q4_img.sv(5)
+#    Time: 0 ps  Iteration: 0  Instance: /top
+# End time: 18:09:55 on Nov 16,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 1
